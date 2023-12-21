@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'outer';
+    src: url(../fonts/MADE\ Outer\ Sans\ Alt\ Bold\ PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@import 'global';
+@import 'header';
+@import 'main';
+@import 'loader';
+@import 'screen';

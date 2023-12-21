@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $orange; 
+  }
+  .clothy {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 30px 0 150px 0;
+    color: #e0245e;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    text-align: center;
+  }
+  svg {
+    visibility: hidden;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .dress, .mexi, .skirt {
+    visibility: hidden;
+  }
